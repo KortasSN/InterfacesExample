@@ -9,7 +9,7 @@ public class NameGetter {
         System.out.println("What is your name please? ");
         String name = scanner.nextLine();
 
-        NameProcessor nameProcessor = new NameCapitalizer();
+        NameProcessor nameProcessor = new NameExclaim();
     nameProcessor.process(name);
         System.out.println("Thank you, I have processed your name");
     }
